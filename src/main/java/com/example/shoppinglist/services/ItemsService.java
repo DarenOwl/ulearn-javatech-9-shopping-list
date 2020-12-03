@@ -19,7 +19,13 @@ public class ItemsService {
     }
 
     public Item addItem(String name, Integer count, Integer userId) {
-        return itemsRepository.save(new Item(name, count, userId));
+        Item item = new Item(name, count,userId);
+        addItem(item);
+        return item;
+    }
+
+    public void addItem(Item item) {
+        itemsRepository.save(item);
     }
 
     public boolean markAsBought(Integer itemId) {
