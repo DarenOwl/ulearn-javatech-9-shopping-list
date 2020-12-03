@@ -1,0 +1,64 @@
+body {
+    font-family: "Consolas";
+    background: #587c80;
+}
+
+input {
+    height: 28px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.form {
+    margin: 0 auto;
+    width: 200px;
+}
+
+button {
+    background-color: white;
+    border-top: 2px solid lightgray;
+    border-right: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    border-left: 2px solid lightgray;
+}
+
+.submit {
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.item {
+    width: 200px;
+    height: 28px;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.item-bought {
+    width: 200px;
+    height: 28px;
+    text-align: left;
+    margin: 5px 0;
+    text-decoration: line-through;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: right;
+}
+
+a {
+    color: #587c80;
+}
+
+.content {
+    background: white;
+    width: min-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 20px 100px;
+    border-bottom: #587c80 dotted 6px;
+    border-top: #587c80 dotted 6px;
+}
+
